@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+
+#container {
+    height:fit-content;
+    width: fit-content;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    background-color: orange;
+    font-weight: bold;
+    height: 60px;
+    width: 60px;
+}
+
+.number, #comma {
+    background-color: lightgrey;
+}
+
+#clear {
+    background-color: whitesmoke;
+}
+
+.row1, .row5 {
+    display: flex;
+    justify-content: space-between;}
+
+
+#clear, #zero {
+    width: 125px;
+}
